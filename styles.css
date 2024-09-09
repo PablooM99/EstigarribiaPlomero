@@ -114,10 +114,14 @@ footer {
     .hamburger {
         display: flex;
     }
+
+    .presentacion img {
+        width: 30%;
+    }
 }
 
 .presentacion {
-    height: 70vh;
+    height: 100vh;
     background-color: #f4a261;
     color: white;
 }
@@ -146,14 +150,31 @@ footer {
 .presentacion img {
     width: 40%;
     object-fit: cover;
-    border-radius: 100%;
+    border-radius: 10%;
     margin-top: 20px;
     margin-left: 40px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    
 }
 
 .pimg {
     display: flex;
+}
+
+.sobreNosotros h2 {
+    padding: 20px;
+    font-size: 2em;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+
 }
 
 .sobreNosotrosP {
@@ -173,6 +194,15 @@ footer {
     border-radius: 50px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     background-color: #ec552f;
+}
+
+.preFinal {
+    padding: 20px;
+    font-size: 1.2em;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: #ec552f;
+    text-align: center;
 }
 
 .pFinal {
@@ -254,4 +284,12 @@ footer {
 
 .nuestrosTrabajosImg img:active + .modal {
     display: block;
+}
+
+.contactoP {
+    background-color: #2a9d8f;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
